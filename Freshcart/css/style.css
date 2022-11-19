@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+
+.first-all{
+    background-image: url("https://freshcart.codescandy.com/assets/images/slider/slide-1.jpg");
+    background-position: center;
+    background-size: cover;
+    padding: 8rem 4rem;
+    border-radius: 10px;
+    margin-top: 2rem;
+}
+.first-all h2{
+    width: 170px;
+    background-color:#FFC107;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 4px 7px;
+    border-radius: 5px;
+}
+.first-all h1{
+    font-weight: 700;
+    font-size: 3rem;
+    margin: 1rem 0 .5rem;
+    width: 30%;
+}
+.first-all p{
+    font-weight: 500;
+    font-size: 1rem;
+    color: #5C6C75;
+    margin-bottom: 2rem;
+    width: 30%;
+    line-height:1.5rem;
+}
+.f-btn{
+    width: 125px;
+    background-color: #000; 
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: .5rem 1rem;
+}
+.f-btn svg{
+    color: white;
+   margin-left: 3px;
+   vertical-align: bottom;
+}
+.f-btn .f-btn-a{
+    font-size: .8rem;
+    font-weight: 600;
+    color: white;
+}
+.second-all h2{
+    font-size: 1.5rem;
+    margin: 5rem 0 2rem;
+}
+.items{
+    margin-bottom: 3.5rem;
+}
+.items .box{
+    border: 1px solid #f0f3f2;
+    border-radius: 5px;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+.box .s-text a{
+    font-size: 14px;
+    color: #404546;
+    font-weight: 500;
+}
+.box .s-text {
+    margin-top: .5rem;
+}
+.box:hover .s-text a{
+    color: #139a74;
+}
+.box:hover{
+    border-color: #139a74;
+}
+.f-item{
+    background-image: url("https://freshcart.codescandy.com/assets/images/banner/grocery-banner.png");
+    background-position: center;
+    background-size: cover;
+    padding: 4rem 2rem;
+    border-radius: 5px;
+}
+.f-item2{
+    background-image: url("https://freshcart.codescandy.com/assets/images/banner/grocery-banner-2.jpg");
+    background-position: center;
+    background-size: cover;
+    padding: 4rem 2rem;
+    border-radius: 5px;
+
+}
+.f-items h3{
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+.f-items p{
+    font-weight: 500;
+    font-size: 1rem;
+    color: #5C6C75;
+}
+.f-btn-f{
+    padding-left: 2rem;
+}
+.second-foot{
+    margin-bottom: 5rem;
+}
+.third-all{
+    margin-bottom: 5rem;
+}
+.third-all h2{
+    font-size: 1.5rem;
+    margin: 5rem 0 2rem;
+}
+
+.card-body p{
+    font-size: 0.8rem;
+    color: #5c6c75;
+    margin-bottom: 0;
+} 
+.card-body a{
+    font-size: .9rem;
+    font-weight: 600;
+    color: #21313c;
+}
+.i-stars i{
+    font-size: .8rem;
+    color: #FFC107;
+}
+.r-text{
+    color: #5c6c75;
+    font-size: .8rem;
+}
+
+.first-prc{
+    font-size: .9rem;
+    font-weight: 500; 
+    color: #21313c;
+}
+.second-prc{
+    font-size: .9rem;
+    color:#5c6c75;
+    text-decoration: line-through;
+    font-weight: 500;
+}
+.btn{
+    padding: 4px 8px;
+    background-color: #0aad0a;
+    font-size: .77rem!important;
+}
+.btn:hover{
+    background-color: #099309;
+    border-color: #088a08;
+}
+.card:hover{
+    border-color: #139a74;
+}
